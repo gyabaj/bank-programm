@@ -2,9 +2,9 @@
 
 std::ofstream fout;
 
-Base::Base():j{}{}
-Base::Base(json js):j(js){}
-Base::Base(const Base &b): j(b.j){}
+Base::Base() : j{}{}
+Base::Base(json js) : j(js){}
+Base::Base(const Base &b) : j(b.j){}
 Base::~Base(){}
 void Base::CreateNewAcc() /// 1.
 {
